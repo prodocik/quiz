@@ -1,5 +1,6 @@
 
 import UIKit
+
 class ViewController: UIViewController {
     @IBOutlet weak var QuestionLabel: UILabel!
     @IBOutlet weak var HighScoreLabel: UILabel!
