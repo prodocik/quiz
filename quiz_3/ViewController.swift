@@ -13,8 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var Button2: UIButton!
     @IBOutlet weak var Button3: UIButton!
     @IBOutlet weak var Button4: UIButton!
-
-    
     var quote = -1
     var highScore = 0
     
@@ -25,8 +23,6 @@ class ViewController: UIViewController {
         HighScoreLabel.hidden = true
         generateQuestion(showrandom())
     }
-    
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
