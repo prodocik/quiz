@@ -7,7 +7,6 @@ import UIKit
 
 
 class ViewController: UIViewController {
-
     @IBOutlet weak var QuestionLabel: UILabel!
     @IBOutlet weak var HighScoreLabel: UILabel!
     @IBOutlet weak var Button1: UIButton!
@@ -18,9 +17,6 @@ class ViewController: UIViewController {
     
     var quote = -1
     var highScore = 0
-    
-    
-    
     
     let question = [[["01. Как поймать суслика"],["Руками", "Клеткой","Суслик сам поймаетс","Это не реально" ],["0","1","4", "6"]],[["02. Где у рукожопа голова?"],["Там где нет мозгов", "В раковине","Там где должны быть руки","На месте" ],["4","2","1", "0"]],[["03. Что, Где и Когда?"],["Ниче, нигде и никогда", "Что-то где-то когда-то","Не в курсах","Дратути" ],["3","1","6", "0"]],[["04. Куда дели Билли Боба"],["Он ушел", "Где-то по середине лета","Прости прощай!","Штэ?" ],["2","2","1", "4"]]]
     
