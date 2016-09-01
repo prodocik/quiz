@@ -1,1 +1,1 @@
-# quizf
+# Quiz application to learn Swift purposes
