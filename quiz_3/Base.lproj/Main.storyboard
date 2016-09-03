@@ -62,33 +62,19 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwu-26-UIa">
-                                <rect key="frame" x="88" y="191" width="424" height="218"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="218" id="cSt-eT-woj"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="XPY-R2-Q6X" secondAttribute="trailing" constant="68" id="1Qf-E9-YRw"/>
-                            <constraint firstItem="wwu-26-UIa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="30z-IF-3Pu"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pnu-J0-6aN" secondAttribute="bottom" id="4EH-Rf-5YT"/>
                             <constraint firstItem="pnu-J0-6aN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5Ks-ik-NLZ"/>
                             <constraint firstItem="uAs-Ou-TV1" firstAttribute="top" secondItem="v5b-kt-Y1K" secondAttribute="bottom" constant="8" symbolic="YES" id="7dI-84-9Zs"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MX0-BY-6RV" secondAttribute="bottom" constant="86" id="8Kl-1a-ul6"/>
                             <constraint firstItem="uAs-Ou-TV1" firstAttribute="leading" secondItem="MX0-BY-6RV" secondAttribute="leading" id="BLS-Jt-hvz"/>
                             <constraint firstItem="FH2-6G-01f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DAf-bi-U7C"/>
-                            <constraint firstItem="wwu-26-UIa" firstAttribute="trailing" secondItem="XPY-R2-Q6X" secondAttribute="trailing" id="Fft-BZ-dBE"/>
                             <constraint firstItem="MX0-BY-6RV" firstAttribute="centerX" secondItem="pnu-J0-6aN" secondAttribute="centerX" id="Ga7-Nb-aHX"/>
                             <constraint firstItem="XPY-R2-Q6X" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="46" id="H6W-ed-jPc"/>
                             <constraint firstItem="MX0-BY-6RV" firstAttribute="top" secondItem="uAs-Ou-TV1" secondAttribute="bottom" constant="8" symbolic="YES" id="JEL-pi-Dz0"/>
-                            <constraint firstItem="wwu-26-UIa" firstAttribute="leading" secondItem="XPY-R2-Q6X" secondAttribute="leading" id="LGT-MS-Vdc"/>
-                            <constraint firstItem="wwu-26-UIa" firstAttribute="centerY" secondItem="pnu-J0-6aN" secondAttribute="centerY" id="LNZ-jZ-HRK"/>
-                            <constraint firstItem="wwu-26-UIa" firstAttribute="top" secondItem="XPY-R2-Q6X" secondAttribute="bottom" constant="59" id="TPA-32-hV2"/>
                             <constraint firstItem="FH2-6G-01f" firstAttribute="centerX" secondItem="pnu-J0-6aN" secondAttribute="centerX" id="YQf-X2-2Lu"/>
                             <constraint firstItem="XPY-R2-Q6X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="68" id="cnI-B0-buc"/>
                             <constraint firstItem="v5b-kt-Y1K" firstAttribute="leading" secondItem="uAs-Ou-TV1" secondAttribute="leading" id="dU0-ss-oy1"/>
@@ -106,13 +92,42 @@
                         <outlet property="Button2" destination="v5b-kt-Y1K" id="JXL-3d-Pzj"/>
                         <outlet property="Button3" destination="uAs-Ou-TV1" id="xON-bh-xrR"/>
                         <outlet property="Button4" destination="MX0-BY-6RV" id="oLf-ll-h75"/>
-                        <outlet property="HighScoreLabel" destination="wwu-26-UIa" id="3Dk-By-UMB"/>
                         <outlet property="QuestionLabel" destination="XPY-R2-Q6X" id="8xP-Cj-J8M"/>
+                        <segue destination="hGw-YA-pmI" kind="presentation" identifier="segue" modalTransitionStyle="partialCurl" id="qcU-d1-gq5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="440" y="399"/>
+            <point key="canvasLocation" x="307" y="399"/>
+        </scene>
+        <!--Vc2-->
+        <scene sceneID="KQP-MM-ouK">
+            <objects>
+                <viewController storyboardIdentifier="mySegueID" id="hGw-YA-pmI" customClass="Vc2" customModule="quiz_3" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="THA-hl-ETx"/>
+                        <viewControllerLayoutGuide type="bottom" id="bu1-Fo-b0j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ibO-Cx-oHj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tps-TY-3Tm">
+                                <rect key="frame" x="88" y="137" width="424" height="218"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="highScoreLabel" destination="tps-TY-3Tm" id="kGL-DV-qXc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nHr-lp-0j6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1068" y="399"/>
         </scene>
     </scenes>
 </document>
