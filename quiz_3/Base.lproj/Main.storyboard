@@ -93,7 +93,7 @@
                         <outlet property="Button3" destination="uAs-Ou-TV1" id="xON-bh-xrR"/>
                         <outlet property="Button4" destination="MX0-BY-6RV" id="oLf-ll-h75"/>
                         <outlet property="QuestionLabel" destination="XPY-R2-Q6X" id="8xP-Cj-J8M"/>
-                        <segue destination="hGw-YA-pmI" kind="presentation" identifier="segue" modalTransitionStyle="partialCurl" id="qcU-d1-gq5"/>
+                        <segue destination="hGw-YA-pmI" kind="presentation" identifier="segue" id="qcU-d1-gq5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -103,7 +103,7 @@
         <!--Vc2-->
         <scene sceneID="KQP-MM-ouK">
             <objects>
-                <viewController storyboardIdentifier="mySegueID" id="hGw-YA-pmI" customClass="Vc2" customModule="quiz_3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hGw-YA-pmI" customClass="Vc2" customModule="quiz_3" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="THA-hl-ETx"/>
                         <viewControllerLayoutGuide type="bottom" id="bu1-Fo-b0j"/>
@@ -112,14 +112,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tps-TY-3Tm">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tps-TY-3Tm">
                                 <rect key="frame" x="88" y="137" width="424" height="218"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jkw-j3-5A6">
+                                <rect key="frame" x="263" y="426" width="75" height="30"/>
+                                <state key="normal" title="Start again"/>
+                                <connections>
+                                    <action selector="StartAgainButton:" destination="hGw-YA-pmI" eventType="touchUpInside" id="xzQ-sa-zdg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tps-TY-3Tm" firstAttribute="leading" secondItem="ibO-Cx-oHj" secondAttribute="leadingMargin" constant="68" id="DeJ-NQ-QsJ"/>
+                            <constraint firstItem="tps-TY-3Tm" firstAttribute="top" secondItem="THA-hl-ETx" secondAttribute="bottom" constant="117" id="gkJ-Ba-KjA"/>
+                            <constraint firstItem="tps-TY-3Tm" firstAttribute="centerX" secondItem="ibO-Cx-oHj" secondAttribute="centerX" id="oFO-hU-0Ps"/>
+                            <constraint firstItem="bu1-Fo-b0j" firstAttribute="top" secondItem="tps-TY-3Tm" secondAttribute="bottom" constant="245" id="qV5-PU-KhO"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="highScoreLabel" destination="tps-TY-3Tm" id="kGL-DV-qXc"/>

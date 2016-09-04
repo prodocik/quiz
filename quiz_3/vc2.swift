@@ -9,10 +9,9 @@
 import UIKit
 
 
-class Vc2: UIViewController{
+class Vc2: UIViewController {
     @IBOutlet weak var highScoreLabel: UILabel!
-    
-var highScore = Int()
+    var highScore = Int()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,10 +25,7 @@ var highScore = Int()
         // Dispose of any resources that can be recreated.
     }
     
-    
-
-    
-    
-
-    
+    @IBAction func StartAgainButton(sender: UIButton) {
+        self.dismissViewControllerAnimated(false, completion: nil)
+    }
 }
