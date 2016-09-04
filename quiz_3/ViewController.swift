@@ -38,7 +38,8 @@ class ViewController: UIViewController {
             quote = 3
     
             self.performSegueWithIdentifier("segue", sender: nil)
-
+            quote = 0
+            highScore = 0
         }
         
         return quote
