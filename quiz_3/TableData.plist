@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mainArray</key>
+	<array>
+		<array>
+			<array>
+				<string>Сколько ежиков надо чтобы вкрутить лампочку</string>
+			</array>
+			<array>
+				<string>Ежики не нужны</string>
+				<string>около 5</string>
+				<string>Махмуд зажигай</string>
+				<string>КТо здеь?</string>
+			</array>
+			<array>
+				<string>4</string>
+				<string>2</string>
+				<string>4</string>
+				<string>1</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Вокруг чего вращается земля?</string>
+			</array>
+			<array>
+				<string>сама себя</string>
+				<string>кого то другого</string>
+				<string>солнца</string>
+				<string>луны</string>
+			</array>
+			<array>
+				<string>4</string>
+				<string>2</string>
+				<string>4</string>
+				<string>1</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Казуар это страус?</string>
+			</array>
+			<array>
+				<string>Индюшка</string>
+				<string>Страус</string>
+				<string>Курица</string>
+				<string>Цапля</string>
+			</array>
+			<array>
+				<string>4</string>
+				<string>2</string>
+				<string>4</string>
+				<string>1</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Как зову Холмса?</string>
+			</array>
+			<array>
+				<string>Шерлок</string>
+				<string>Евгений</string>
+				<string>Артем</string>
+				<string>Артур</string>
+			</array>
+			<array>
+				<string>4</string>
+				<string>2</string>
+				<string>4</string>
+				<string>1</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Какой это вопрос?</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>4</string>
+				<string>5</string>
+			</array>
+			<array>
+				<string>4</string>
+				<string>2</string>
+				<string>4</string>
+				<string>1</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Последнйи вопрос</string>
+			</array>
+			<array>
+				<string>ответ 1</string>
+				<string>ответ 2</string>
+				<string>ответ 3</string>
+				<string>ответ 4</string>
+			</array>
+			<array>
+				<string>4</string>
+				<string>2</string>
+				<string>4</string>
+				<string>1</string>
+			</array>
+		</array>
+	</array>
+</dict>
+</plist>
