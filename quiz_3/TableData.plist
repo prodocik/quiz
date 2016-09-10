@@ -6,104 +6,104 @@
 	<array>
 		<array>
 			<array>
-				<string>Сколько ежиков надо чтобы вкрутить лампочку</string>
+				<string>Какое Ваше телосложение?</string>
 			</array>
 			<array>
-				<string>Ежики не нужны</string>
-				<string>около 5</string>
-				<string>Махмуд зажигай</string>
-				<string>КТо здеь?</string>
+				<string>худое и хрупкое</string>
+				<string>среднее</string>
+				<string>хорошо развитые мышцы</string>
+				<string>склонность к полноте </string>
 			</array>
 			<array>
-				<string>4</string>
-				<string>2</string>
-				<string>4</string>
 				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>3</string>
 			</array>
 		</array>
 		<array>
 			<array>
-				<string>Вокруг чего вращается земля?</string>
+				<string>Какие ваши бедра?</string>
 			</array>
 			<array>
-				<string>сама себя</string>
-				<string>кого то другого</string>
-				<string>солнца</string>
-				<string>луны</string>
+				<string>узкие</string>
+				<string>широкие</string>
+				<string>средние</string>
+				<string>не уверен(а)</string>
 			</array>
 			<array>
-				<string>4</string>
-				<string>2</string>
-				<string>4</string>
 				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
 			</array>
 		</array>
 		<array>
 			<array>
-				<string>Казуар это страус?</string>
+				<string>Какие ваши плечи?</string>
 			</array>
 			<array>
-				<string>Индюшка</string>
-				<string>Страус</string>
-				<string>Курица</string>
-				<string>Цапля</string>
+				<string>Широкие</string>
+				<string>Узкие</string>
+				<string>Средние</string>
+				<string>Не уверен(а)</string>
 			</array>
 			<array>
-				<string>4</string>
-				<string>2</string>
-				<string>4</string>
+				<string>3</string>
 				<string>1</string>
+				<string>2</string>
+				<string>0</string>
 			</array>
 		</array>
 		<array>
 			<array>
-				<string>Как зову Холмса?</string>
+				<string>Какая ваша кожа?</string>
 			</array>
 			<array>
-				<string>Шерлок</string>
-				<string>Евгений</string>
-				<string>Артем</string>
-				<string>Артур</string>
+				<string>сухая, темноватая</string>
+				<string>желтоватая, много потеет</string>
+				<string>веснушки, родинки</string>
+				<string>блестит и лоснится, белая</string>
 			</array>
 			<array>
-				<string>4</string>
-				<string>2</string>
-				<string>4</string>
 				<string>1</string>
+				<string>2</string>
+				<string>2</string>
+				<string>3</string>
 			</array>
 		</array>
 		<array>
 			<array>
-				<string>Какой это вопрос?</string>
+				<string>Какая ваша обычная температура тела?</string>
+			</array>
+			<array>
+				<string>низкая, холодные конечности</string>
+				<string>высокая, ощущение теплоты</string>
+				<string>низкая, прохладная на ощупь</string>
+				<string>не знаю</string>
 			</array>
 			<array>
 				<string>1</string>
 				<string>2</string>
-				<string>4</string>
-				<string>5</string>
-			</array>
-			<array>
-				<string>4</string>
-				<string>2</string>
-				<string>4</string>
-				<string>1</string>
+				<string>3</string>
+				<string>0</string>
 			</array>
 		</array>
 		<array>
 			<array>
-				<string>Последнйи вопрос</string>
+				<string>Какие Ваши зубы?</string>
 			</array>
 			<array>
-				<string>ответ 1</string>
-				<string>ответ 2</string>
-				<string>ответ 3</string>
-				<string>ответ 4</string>
+				<string>желтоватые, средние</string>
+				<string>нерегулярные, маленькие, легко ломаются</string>
+				<string>белые, большие, крепкие</string>
+				<string>не могу определить</string>
 			</array>
 			<array>
-				<string>4</string>
 				<string>2</string>
-				<string>4</string>
 				<string>1</string>
+				<string>3</string>
+				<string>0</string>
 			</array>
 		</array>
 	</array>

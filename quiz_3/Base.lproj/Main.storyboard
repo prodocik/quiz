@@ -174,22 +174,52 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umr-ru-eaG">
+                                <rect key="frame" x="286" y="355" width="29" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="29" id="PA3-4L-gGQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9X-eW-zCk">
+                                <rect key="frame" x="295" y="427" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwM-cY-VkD">
+                                <rect key="frame" x="295" y="393" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.22555123730964466" green="0.14509625066156653" blue="0.15750644332144753" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="umr-ru-eaG" firstAttribute="centerX" secondItem="tps-TY-3Tm" secondAttribute="centerX" id="7YQ-ao-jfy"/>
                             <constraint firstItem="tps-TY-3Tm" firstAttribute="centerY" secondItem="ibO-Cx-oHj" secondAttribute="centerY" id="EMK-k2-WXi"/>
                             <constraint firstAttribute="trailing" secondItem="jkw-j3-5A6" secondAttribute="trailing" id="GN9-4p-vid"/>
+                            <constraint firstItem="d9X-eW-zCk" firstAttribute="top" secondItem="dwM-cY-VkD" secondAttribute="bottom" constant="13" id="L3R-z1-6Wd"/>
                             <constraint firstItem="X8K-Hv-opo" firstAttribute="top" secondItem="THA-hl-ETx" secondAttribute="bottom" constant="61" id="N0O-0W-qtI"/>
                             <constraint firstItem="X8K-Hv-opo" firstAttribute="centerX" secondItem="tps-TY-3Tm" secondAttribute="centerX" id="NbM-1Y-cQU"/>
                             <constraint firstItem="tps-TY-3Tm" firstAttribute="centerX" secondItem="jkw-j3-5A6" secondAttribute="centerX" id="QW7-6m-CRy"/>
                             <constraint firstItem="tps-TY-3Tm" firstAttribute="leading" secondItem="ibO-Cx-oHj" secondAttribute="leadingMargin" constant="68" id="UpI-X6-U8J"/>
                             <constraint firstItem="jkw-j3-5A6" firstAttribute="leading" secondItem="ibO-Cx-oHj" secondAttribute="leading" id="Vw3-ZY-03i"/>
+                            <constraint firstItem="umr-ru-eaG" firstAttribute="top" secondItem="tps-TY-3Tm" secondAttribute="bottom" constant="26" id="WG3-8D-Ptp"/>
+                            <constraint firstItem="dwM-cY-VkD" firstAttribute="centerX" secondItem="umr-ru-eaG" secondAttribute="centerX" id="Yjk-hP-38e"/>
+                            <constraint firstItem="dwM-cY-VkD" firstAttribute="leading" secondItem="d9X-eW-zCk" secondAttribute="leading" id="fE6-yC-qgE"/>
+                            <constraint firstItem="dwM-cY-VkD" firstAttribute="top" secondItem="umr-ru-eaG" secondAttribute="bottom" constant="17" id="nQj-jh-kNq"/>
                             <constraint firstItem="jkw-j3-5A6" firstAttribute="bottom" secondItem="bu1-Fo-b0j" secondAttribute="top" id="w1w-ga-BJr"/>
                         </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
                         <outlet property="highScoreLabel" destination="tps-TY-3Tm" id="kGL-DV-qXc"/>
+                        <outlet property="kaphaLabel" destination="d9X-eW-zCk" id="lNO-Oe-iGp"/>
+                        <outlet property="pitaLabel" destination="umr-ru-eaG" id="h5S-b3-zAS"/>
+                        <outlet property="vataLabel" destination="dwM-cY-VkD" id="gYR-D7-Kl4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nHr-lp-0j6" userLabel="First Responder" sceneMemberID="firstResponder"/>
