@@ -7,7 +7,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var Button3: UIButton!
     @IBOutlet weak var Button4: UIButton!
     var quote = -1
-    var highScore = 0
+
     var question = [[[String]]]()
     var pita = 0
     var kapha = 0
@@ -29,7 +29,6 @@ class ViewController: UIViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let destinationVC:Vc2 = segue.destinationViewController as! Vc2
-        destinationVC.highScore = highScore
         destinationVC.pita = pita
         destinationVC.kapha = kapha
         destinationVC.vata = vata
@@ -42,7 +41,7 @@ class ViewController: UIViewController {
             quote = 3
             self.performSegueWithIdentifier("segue", sender: nil)
             quote = 0
-            highScore = 0
+
             pita = 0
             vata = 0
             kapha = 0
@@ -62,7 +61,6 @@ class ViewController: UIViewController {
     
     
     func generateHighScore ( buttonNumber: Int) -> (Int, Int, Int) {
-    
         switch Int(question[quote][2][buttonNumber - 1])! {
             case 2: pita += 1
              case 1: vata += 1
@@ -74,10 +72,6 @@ class ViewController: UIViewController {
         return (pita, vata, kapha)
     }
     
-//    func generateHighScore ( buttonNumber: Int) -> Int {
-//       highScore += Int(question[quote][2][buttonNumber - 1]) ?? 0
-//        return highScore
-//    }
     
     @IBAction func Button1Action(sender: UIButton) {generateQuestion(showrandom()); generateHighScore(1)}
     @IBAction func Button2Action(sender: UIButton) {generateQuestion(showrandom());generateHighScore(2)}

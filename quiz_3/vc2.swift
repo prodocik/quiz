@@ -13,7 +13,7 @@ class Vc2: UIViewController {
     @IBOutlet weak var kaphaLabel: UILabel!
     @IBOutlet weak var vataLabel: UILabel!
     @IBOutlet weak var pitaLabel: UILabel!
-    @IBOutlet weak var highScoreLabel: UILabel!
+
     var highScore = Int()
     var pita = Int()
     var kapha = Int()
@@ -21,7 +21,6 @@ class Vc2: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        highScoreLabel.text = String(highScore)
         pitaLabel.text = String (pita)
         vataLabel.text = String (vata)
         kaphaLabel.text = String (kapha)
