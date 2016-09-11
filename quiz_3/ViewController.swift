@@ -1,13 +1,14 @@
 
 import UIKit
 class ViewController: UIViewController {
+    @IBOutlet weak var counterLabel: UILabel!
     @IBOutlet weak var QuestionLabel: UILabel!
     @IBOutlet weak var Button1: UIButton!
     @IBOutlet weak var Button2: UIButton!
     @IBOutlet weak var Button3: UIButton!
     @IBOutlet weak var Button4: UIButton!
     var quote = -1
-
+    var counter = 0
     var question = [[[String]]]()
     var pita = 0
     var kapha = 0
@@ -19,6 +20,8 @@ class ViewController: UIViewController {
         let path = NSBundle.mainBundle().pathForResource("TableData", ofType: "plist")
         let dict = NSDictionary(contentsOfFile: path!)
         question = dict!.objectForKey("mainArray") as! [[[String]]]
+        
+        counter = question.count
         generateQuestion(showrandom())
     }
     
@@ -40,11 +43,10 @@ class ViewController: UIViewController {
         if quote >= question.count {
             quote = 3
             self.performSegueWithIdentifier("segue", sender: nil)
-            quote = 0
-
             pita = 0
             vata = 0
             kapha = 0
+            quote = 0
         }
         return quote
     }
@@ -52,6 +54,7 @@ class ViewController: UIViewController {
   
     
     func generateQuestion (questionNumber: Int) {
+        counterLabel.text = String(quote + 1) + "/" + String(counter)
         QuestionLabel.text = question[questionNumber][0][0]
         Button1.setTitle(question[questionNumber ][1][0], forState: .Normal)
         Button2.setTitle(question[questionNumber ][1][1], forState: .Normal)
@@ -61,6 +64,7 @@ class ViewController: UIViewController {
     
     
     func generateHighScore ( buttonNumber: Int) -> (Int, Int, Int) {
+        
         switch Int(question[quote][2][buttonNumber - 1])! {
             case 2: pita += 1
              case 1: vata += 1

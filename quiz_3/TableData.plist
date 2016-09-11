@@ -106,6 +106,125 @@
 				<string>0</string>
 			</array>
 		</array>
+		<array>
+			<array>
+				<string>Какие ваши губы?</string>
+			</array>
+			<array>
+				<string>тонкие, тёмные</string>
+				<string>сухие, потрескавшиеся</string>
+				<string>мягкие, розовые или медного цвета</string>
+				<string>толстые, полные, влажные</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Какие ваши пальцы на руках?</string>
+			</array>
+			<array>
+				<string>длинные и тонкие</string>
+				<string>средние</string>
+				<string>толстые</string>
+				<string>относительно короткие</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>3</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Какие ваши ногти?</string>
+			</array>
+			<array>
+				<string>короткие, грубые</string>
+				<string> средние, мягкие, розовые</string>
+				<string>ломкие, тёмные, тусклые</string>
+				<string>длинные, толстые, хорошо округлённые</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>1</string>
+				<string>3</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Где располагается максимальное количество жира в вашем теле?</string>
+			</array>
+			<array>
+				<string>в области живота и талии</string>
+				<string>распределён равномерно</string>
+				<string>в основном вокруг бёдер и ягодиц</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Какое рост и комплекция ближе к вашему?</string>
+			</array>
+			<array>
+				<string>очень низкий (худое тело)</string>
+				<string>очень высокий (худое тело)</string>
+				<string>средний</string>
+				<string>высокий или низкий (и тучное тело)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Опишите ваши суставы</string>
+			</array>
+			<array>
+				<string>выступающие, сухие, узловатые</string>
+				<string>нормальные, соразмерные</string>
+				<string>большие, хорошо сформированные</string>
+				<string>крупные, округлённые</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>3</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Опишите ваши вены</string>
+			</array>
+			<array>
+				<string>легко заметные</string>
+				<string>равномерно распределённые</string>
+				<string>заметные но не выступающие</string>
+				<string>не видны</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>2</string>
+				<string>3</string>
+			</array>
+		</array>
 	</array>
 </dict>
 </plist>
