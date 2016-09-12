@@ -10,9 +10,9 @@ class ViewController: UIViewController {
     var quote = -1
     var counter = 0
     var question = [[[String]]]()
-    var pita = 0
-    var kapha = 0
-    var vata = 0
+    var pita:Float = 0
+    var kapha:Float = 0
+    var vata:Float = 0
  
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,7 +63,7 @@ class ViewController: UIViewController {
     }
     
     
-    func generateHighScore ( buttonNumber: Int) -> (Int, Int, Int) {
+    func generateHighScore ( buttonNumber: Int) -> (Float, Float, Float) {
         
         switch Int(question[quote][2][buttonNumber - 1])! {
             case 2: pita += 1

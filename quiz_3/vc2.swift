@@ -15,15 +15,15 @@ class Vc2: UIViewController {
     @IBOutlet weak var pitaLabel: UILabel!
 
     var highScore = Int()
-    var pita = Int()
-    var kapha = Int()
-    var vata = Int()
+    var pita = Float()
+    var kapha = Float()
+    var vata = Float()
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        pitaLabel.text = String (pita)
-        vataLabel.text = String (vata)
-        kaphaLabel.text = String (kapha)
+        pitaLabel.text = String (lroundf((pita / (pita + vata + kapha)) * 100)) + "%"
+        vataLabel.text = String (lroundf((vata/(pita + vata + kapha)) * 100)) + "%"
+        kaphaLabel.text = String (lroundf((kapha/(pita + vata + kapha)) * 100)) + "%"
     }
     
     override func didReceiveMemoryWarning() {
