@@ -176,7 +176,7 @@
 		</array>
 		<array>
 			<array>
-				<string>Какое рост и комплекция ближе к вашему?</string>
+				<string>Какие рост и комплекция ближе к вашему?</string>
 			</array>
 			<array>
 				<string>очень низкий (худое тело)</string>
@@ -222,6 +222,125 @@
 				<string>1</string>
 				<string>2</string>
 				<string>2</string>
+				<string>3</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Опишите ваши волосы</string>
+			</array>
+			<array>
+				<string>тонкие, тёмные, грубые, вьющиеся</string>
+				<string>красивые, мягкие, прямые, светлые</string>
+				<string>рыжеватые или песчаные</string>
+				<string>густые, толстые, волнистые, блестящие, чёрные или коричневые</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>2</string>
+				<string>3</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Ваше лицо по форме:</string>
+			</array>
+			<array>
+				<string>вытянутое, угловатое, подбородок слаборазвитый</string>
+				<string>сердцевидное, подбородок часто заострённый</string>
+				<string>овальное без видимых ушловатостей</string>
+				<string>большое, округлое, полное</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>1</string>
+				<string>3</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Ваша шея:</string>
+			</array>
+			<array>
+				<string>тонкая, очень длинная или очень короткая</string>
+				<string>средняя, пропорциональная</string>
+				<string>широкая, мощная</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Каков ваш нос?</string>
+			</array>
+			<array>
+				<string>маленький, узкий, нос с горбинкой</string>
+				<string>средний, ровный, заострённый</string>
+				<string>большой, округлый, нос картошкой</string>
+				<string>другой</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Какие ваши глаза?</string>
+			</array>
+			<array>
+				<string>маленькие, узкие, запавшие, тёмно-коричневые или серые, тусклые</string>
+				<string>средние, светло-синие, светло-серые или карие, выразительные</string>
+				<string>большие, навыкате, синие или светло-коричневые, привлекательные</string>
+				<string>другие</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Какой ваш рот?</string>
+			</array>
+			<array>
+				<string>маленький</string>
+				<string>средний</string>
+				<string>большой</string>
+				<string>не могу оценить</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Какое Ваше телосложение?</string>
+			</array>
+			<array>
+				<string>худое и хрупкое</string>
+				<string>среднее</string>
+				<string>хорошо развитые мышцы</string>
+				<string>склонность к полноте </string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
 				<string>3</string>
 			</array>
 		</array>

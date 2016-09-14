@@ -21,35 +21,54 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vKH-fL-O4x">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MX0-BY-6RV">
-                                        <rect key="frame" x="0.0" y="415" width="320" height="65"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MX0-BY-6RV">
+                                        <rect key="frame" x="0.0" y="413" width="320" height="67"/>
                                         <color key="backgroundColor" red="0.26933224316937737" green="0.23512853839134007" blue="0.27567814086294418" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" priority="250" constant="50" id="ssb-al-4ha"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                         <color key="tintColor" red="1" green="0.98919514047982671" blue="0.99727292582369376" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <state key="normal" title="Button"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="Button4Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LYy-I8-A77"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FH2-6G-01f">
-                                        <rect key="frame" x="0.0" y="220" width="320" height="65"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FH2-6G-01f">
+                                        <rect key="frame" x="0.0" y="212.5" width="320" height="67"/>
                                         <color key="backgroundColor" red="0.26933224316937737" green="0.23512853839134007" blue="0.27567814086294418" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" priority="250" constant="50" id="agG-Bn-Lca"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                         <color key="tintColor" red="1" green="0.98919514047982671" blue="0.99727292582369376" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <state key="normal" title="Button">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="Button1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MR3-jq-kPB"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v5b-kt-Y1K">
-                                        <rect key="frame" x="0.0" y="285" width="320" height="66"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v5b-kt-Y1K">
+                                        <rect key="frame" x="0.0" y="279.5" width="320" height="67"/>
                                         <color key="backgroundColor" red="0.26933224316937737" green="0.23512853839134007" blue="0.27567814086294418" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
@@ -57,26 +76,46 @@
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" priority="250" constant="50" id="lo1-mu-5fN"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                         <color key="tintColor" red="1" green="0.98919514047982671" blue="0.99727292582369376" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <state key="normal" title="Button"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="Button2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lzY-OE-cOj"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAs-Ou-TV1">
-                                        <rect key="frame" x="0.0" y="351" width="320" height="65"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAs-Ou-TV1">
+                                        <rect key="frame" x="0.0" y="346.5" width="320" height="66.5"/>
                                         <color key="backgroundColor" red="0.26933224316937737" green="0.23512853839134007" blue="0.27567814086294418" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" priority="250" constant="50" id="Qgg-Z1-o8h"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                         <color key="tintColor" red="1" green="0.98919514047982671" blue="0.99727292582369376" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <state key="normal" title="Button"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="Button3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1QE-m8-R8d"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="211" translatesAutoresizingMaskIntoConstraints="NO" id="XPY-R2-Q6X">
-                                        <rect key="frame" x="22" y="60" width="276" height="100"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="211" translatesAutoresizingMaskIntoConstraints="NO" id="XPY-R2-Q6X">
+                                        <rect key="frame" x="22" y="52.5" width="276" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="Sfy-ka-dzm"/>
                                         </constraints>
@@ -86,8 +125,8 @@
                                         <color key="highlightedColor" red="0.32314800126903553" green="0.19518782608345026" blue="0.21148543166277056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <variation key="heightClass=compact" preservesSuperviewLayoutMargins="NO"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTN-8c-GjH">
-                                        <rect key="frame" x="139" y="31" width="42" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTN-8c-GjH">
+                                        <rect key="frame" x="139" y="31" width="42" height="13.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -199,7 +238,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umr-ru-eaG">
-                                        <rect key="frame" x="296" y="50" width="14" height="26.5"/>
+                                        <rect key="frame" x="296" y="50" width="14" height="27"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -243,8 +282,8 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Итоговый результат:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X8K-Hv-opo">
-                                <rect key="frame" x="123" y="74" width="166" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Итоговый результат:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X8K-Hv-opo">
+                                <rect key="frame" x="125" y="72" width="165.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -252,16 +291,16 @@
                         </subviews>
                         <color key="backgroundColor" red="0.22555123730964466" green="0.14509625066156653" blue="0.15750644332144753" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="X8K-Hv-opo" firstAttribute="centerX" secondItem="kbA-y5-XMc" secondAttribute="centerX" id="3GT-Kc-sRC"/>
+                            <constraint firstItem="X8K-Hv-opo" firstAttribute="top" secondItem="THA-hl-ETx" secondAttribute="bottom" constant="52" id="0XS-94-1dR"/>
                             <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="kbA-y5-XMc" secondAttribute="bottom" priority="700" constant="458" id="5Hx-Zb-FyJ"/>
+                            <constraint firstItem="kbA-y5-XMc" firstAttribute="top" secondItem="X8K-Hv-opo" secondAttribute="bottom" constant="58" id="AwZ-CL-rec"/>
                             <constraint firstAttribute="trailing" secondItem="jkw-j3-5A6" secondAttribute="trailing" id="GN9-4p-vid"/>
                             <constraint firstItem="kbA-y5-XMc" firstAttribute="centerX" secondItem="ibO-Cx-oHj" secondAttribute="centerX" id="HQ1-BT-jHN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kbA-y5-XMc" secondAttribute="trailing" priority="350" constant="24" id="LzM-c9-Ix7"/>
-                            <constraint firstItem="kbA-y5-XMc" firstAttribute="top" secondItem="X8K-Hv-opo" secondAttribute="bottom" priority="250" constant="56" id="QXM-s2-uKP"/>
                             <constraint firstItem="jkw-j3-5A6" firstAttribute="top" relation="lessThanOrEqual" secondItem="kbA-y5-XMc" secondAttribute="bottom" constant="453" id="VEN-yV-E1T"/>
                             <constraint firstItem="jkw-j3-5A6" firstAttribute="leading" secondItem="ibO-Cx-oHj" secondAttribute="leading" id="Vw3-ZY-03i"/>
-                            <constraint firstItem="X8K-Hv-opo" firstAttribute="top" secondItem="THA-hl-ETx" secondAttribute="bottom" priority="250" constant="46" id="cgT-A0-gyP"/>
                             <constraint firstItem="kbA-y5-XMc" firstAttribute="leading" secondItem="ibO-Cx-oHj" secondAttribute="leadingMargin" priority="350" constant="24" id="dLy-Bp-0T2"/>
+                            <constraint firstItem="X8K-Hv-opo" firstAttribute="centerX" secondItem="ibO-Cx-oHj" secondAttribute="centerX" id="rJa-dp-pY5"/>
                             <constraint firstItem="jkw-j3-5A6" firstAttribute="bottom" secondItem="bu1-Fo-b0j" secondAttribute="top" id="w1w-ga-BJr"/>
                         </constraints>
                     </view>
