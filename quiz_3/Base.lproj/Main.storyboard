@@ -15,14 +15,14 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vKH-fL-O4x">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MX0-BY-6RV">
-                                        <rect key="frame" x="0.0" y="413" width="320" height="67"/>
+                                        <rect key="frame" x="0.0" y="553" width="375" height="113.5"/>
                                         <color key="backgroundColor" red="0.26933224316937737" green="0.23512853839134007" blue="0.27567814086294418" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" priority="250" constant="50" id="ssb-al-4ha"/>
@@ -44,7 +44,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FH2-6G-01f">
-                                        <rect key="frame" x="0.0" y="212.5" width="320" height="67"/>
+                                        <rect key="frame" x="0.0" y="212" width="375" height="114"/>
                                         <color key="backgroundColor" red="0.26933224316937737" green="0.23512853839134007" blue="0.27567814086294418" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" priority="250" constant="50" id="agG-Bn-Lca"/>
@@ -68,7 +68,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v5b-kt-Y1K">
-                                        <rect key="frame" x="0.0" y="279.5" width="320" height="67"/>
+                                        <rect key="frame" x="0.0" y="326" width="375" height="113.5"/>
                                         <color key="backgroundColor" red="0.26933224316937737" green="0.23512853839134007" blue="0.27567814086294418" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
@@ -93,7 +93,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAs-Ou-TV1">
-                                        <rect key="frame" x="0.0" y="346.5" width="320" height="66.5"/>
+                                        <rect key="frame" x="0.0" y="440" width="375" height="113.5"/>
                                         <color key="backgroundColor" red="0.26933224316937737" green="0.23512853839134007" blue="0.27567814086294418" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" priority="250" constant="50" id="Qgg-Z1-o8h"/>
@@ -115,7 +115,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="211" translatesAutoresizingMaskIntoConstraints="NO" id="XPY-R2-Q6X">
-                                        <rect key="frame" x="22" y="52.5" width="276" height="100"/>
+                                        <rect key="frame" x="22" y="52" width="331" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="Sfy-ka-dzm"/>
                                         </constraints>
@@ -126,7 +126,7 @@
                                         <variation key="heightClass=compact" preservesSuperviewLayoutMargins="NO"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTN-8c-GjH">
-                                        <rect key="frame" x="139" y="31" width="42" height="13.5"/>
+                                        <rect key="frame" x="139" y="31" width="97" height="13.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -177,7 +177,7 @@
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="Button1" destination="FH2-6G-01f" id="IJT-EU-U0s"/>
                         <outlet property="Button2" destination="v5b-kt-Y1K" id="JXL-3d-Pzj"/>
@@ -206,12 +206,12 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jkw-j3-5A6">
                                 <rect key="frame" x="0.0" y="663" width="414" height="73"/>
-                                <color key="backgroundColor" red="0.1842679251269036" green="0.10889756093639483" blue="0.12307307177825091" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.23832810817949723" green="0.45621827411167515" blue="0.42983675076667566" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="73" id="Fuy-bO-sme"/>
                                 </constraints>
                                 <color key="tintColor" red="1" green="0.98758381775355453" blue="0.98860906977256502" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Start again"/>
+                                <state key="normal" title="Пройти еще раз"/>
                                 <connections>
                                     <action selector="StartAgainButton:" destination="hGw-YA-pmI" eventType="touchUpInside" id="xzQ-sa-zdg"/>
                                 </connections>
@@ -289,7 +289,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.22555123730964466" green="0.14509625066156653" blue="0.15750644332144753" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.48684454554623879" green="0.66799789667129517" blue="0.66198714426072658" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="X8K-Hv-opo" firstAttribute="top" secondItem="THA-hl-ETx" secondAttribute="bottom" constant="52" id="0XS-94-1dR"/>
                             <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="kbA-y5-XMc" secondAttribute="bottom" priority="700" constant="458" id="5Hx-Zb-FyJ"/>

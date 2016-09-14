@@ -14,14 +14,54 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhone 6" translatesAutoresizingMaskIntoConstraints="NO" id="QUG-YN-JxO">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Узнайте свою дошу" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6BN-8c-Aif">
+                                <rect key="frame" x="124" y="391" width="166" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Аюрведа тест" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjp-Go-i6f">
+                                <rect key="frame" x="129" y="354" width="156" height="27"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v1.0 All Rights reserved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qiY-cU-hnq">
+                                <rect key="frame" x="136" y="694" width="142" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pjp-Go-i6f" firstAttribute="centerY" secondItem="QUG-YN-JxO" secondAttribute="centerY" id="08N-Gi-f6H"/>
+                            <constraint firstAttribute="trailing" secondItem="QUG-YN-JxO" secondAttribute="trailing" id="38Z-EG-qBM"/>
+                            <constraint firstItem="qiY-cU-hnq" firstAttribute="top" secondItem="QUG-YN-JxO" secondAttribute="bottom" constant="-42" id="I0W-VX-6hQ"/>
+                            <constraint firstItem="pjp-Go-i6f" firstAttribute="centerX" secondItem="6BN-8c-Aif" secondAttribute="centerX" id="OIT-VG-8ED"/>
+                            <constraint firstItem="qiY-cU-hnq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ORj-6o-yFK"/>
+                            <constraint firstItem="6BN-8c-Aif" firstAttribute="top" secondItem="pjp-Go-i6f" secondAttribute="bottom" constant="10" id="YOb-2B-kKf"/>
+                            <constraint firstItem="QUG-YN-JxO" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="cr1-a9-qFO"/>
+                            <constraint firstItem="pjp-Go-i6f" firstAttribute="centerX" secondItem="QUG-YN-JxO" secondAttribute="centerX" id="czq-nz-Bro"/>
+                            <constraint firstAttribute="bottom" secondItem="qiY-cU-hnq" secondAttribute="bottom" constant="20" symbolic="YES" id="hkD-yp-MOs"/>
+                            <constraint firstItem="QUG-YN-JxO" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="nzq-GO-GAy"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="QUG-YN-JxO" secondAttribute="bottom" id="wPU-Zc-Y3u"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.5" y="374.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="iPhone 6" width="375" height="667"/>
+    </resources>
 </document>
