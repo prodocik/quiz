@@ -31,7 +31,7 @@ class Vc2: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func StartAgainButton(sender: UIButton) {
-        self.dismissViewControllerAnimated(false, completion: nil)
+    @IBAction func StartAgainButton(_ sender: UIButton) {
+        self.dismiss(animated: false, completion: nil)
     }
 }
