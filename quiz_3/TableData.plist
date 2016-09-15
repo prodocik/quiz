@@ -329,13 +329,149 @@
 		</array>
 		<array>
 			<array>
-				<string>Какое Ваше телосложение?</string>
+				<string>Вы потеете?</string>
 			</array>
 			<array>
-				<string>худое и хрупкое</string>
-				<string>среднее</string>
-				<string>хорошо развитые мышцы</string>
-				<string>склонность к полноте </string>
+				<string>Минимально</string>
+				<string>обильный, лоснящийся или кисло пахнущий</string>
+				<string> умеренный, присутствующий всегда</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Опишите свой пульс</string>
+			</array>
+			<array>
+				<string>слабый, частый (80-100), изменчивый</string>
+				<string>сильный, наполненный, средний (70-80)</string>
+				<string>устойчивый, редкий (60-70), ритмичный</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Какие ваши температурные предпочтения?</string>
+			</array>
+			<array>
+				<string>сильно стремитесь к теплу</string>
+				<string>любите прохладу</string>
+				<string>меняющиеся</string>
+				<string>не любите холод</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>2</string>
+				<string>3</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Вы потеете?</string>
+			</array>
+			<array>
+				<string>Минимально</string>
+				<string>обильный, лоснящийся или кисло пахнущий</string>
+				<string> умеренный, присутствующий всегда</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>3</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Опишите каков ваш сон</string>
+			</array>
+			<array>
+				<string>лёгкий, прерывистый</string>
+				<string>крепкий, короткий</string>
+				<string>глубокий, любите много спать</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Опишите выделения урины</string>
+			</array>
+			<array>
+				<string>небольшое количество, но часто</string>
+				<string>среднее количество, относительно часто</string>
+				<string>большое количество, редко</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Классифицируйте стул</string>
+			</array>
+			<array>
+				<string> нерегулярный, склонность к запорам, твёрдый, сухой</string>
+				<string>регулярный, рыхлый</string>
+				<string>тягучий, обильный, тяжёлый</string>
+				<string>постоянно меняющийся</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>2</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Какой у вас уровень ежедневной активности?</string>
+			</array>
+			<array>
+				<string>очень высокий, неугомонный</string>
+				<string>умеренный</string>
+				<string>вялый, мечтательный</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Опишите свою походку</string>
+			</array>
+			<array>
+				<string>скорее быстрая</string>
+				<string>со средней скоростью</string>
+				<string>скорее медленная</string>
+				<string>раскачивающаяся</string>
 			</array>
 			<array>
 				<string>1</string>
