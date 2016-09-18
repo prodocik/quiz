@@ -6,7 +6,7 @@
 	<array>
 		<array>
 			<array>
-				<string>Какое Ваше телосложение?</string>
+				<string>Какое ваше телосложение?</string>
 			</array>
 			<array>
 				<string>худое и хрупкое</string>
@@ -91,7 +91,7 @@
 		</array>
 		<array>
 			<array>
-				<string>Какие Ваши зубы?</string>
+				<string>Какие ваши зубы?</string>
 			</array>
 			<array>
 				<string>желтоватые, средние</string>
@@ -176,13 +176,13 @@
 		</array>
 		<array>
 			<array>
-				<string>Какие рост и комплекция ближе к вашему?</string>
+				<string>Какие рост и комплекция ближе к вашим?</string>
 			</array>
 			<array>
 				<string>очень низкий (худое тело)</string>
 				<string>очень высокий (худое тело)</string>
 				<string>средний</string>
-				<string>высокий или низкий (и тучное тело)</string>
+				<string>очень высокий или очень низкий (и тучное тело)</string>
 			</array>
 			<array>
 				<string>1</string>
@@ -249,7 +249,7 @@
 			<array>
 				<string>вытянутое, угловатое, подбородок слаборазвитый</string>
 				<string>сердцевидное, подбородок часто заострённый</string>
-				<string>овальное без видимых ушловатостей</string>
+				<string>овальное без видимых угловатостей</string>
 				<string>большое, округлое, полное</string>
 			</array>
 			<array>
