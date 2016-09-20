@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		2C2FE0BD1D78C31E0046EBCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FE0BC1D78C31E0046EBCC /* AppDelegate.swift */; };
 		2C2FE0BF1D78C31E0046EBCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FE0BE1D78C31E0046EBCC /* ViewController.swift */; };
-		2C2FE0C21D78C31E0046EBCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2FE0C01D78C31E0046EBCC /* Main.storyboard */; };
-		2C2FE0C41D78C31E0046EBCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2FE0C31D78C31E0046EBCC /* Assets.xcassets */; };
-		2C2FE0C71D78C31E0046EBCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2FE0C51D78C31E0046EBCC /* LaunchScreen.storyboard */; };
-		2C4D16491D7E31C7004A514D /* TableData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D16481D7E31C7004A514D /* TableData.plist */; };
 		2C9225E01D917C2E00AF53FB /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9225DF1D917C2E00AF53FB /* GoogleMobileAds.framework */; };
 		2CBE56CA1D7B7B0800652F86 /* vc2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE56C91D7B7B0800652F86 /* vc2.swift */; };
 /* End PBXBuildFile section */
@@ -134,10 +130,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C2FE0C71D78C31E0046EBCC /* LaunchScreen.storyboard in Resources */,
-				2C2FE0C41D78C31E0046EBCC /* Assets.xcassets in Resources */,
-				2C2FE0C21D78C31E0046EBCC /* Main.storyboard in Resources */,
-				2C4D16491D7E31C7004A514D /* TableData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
