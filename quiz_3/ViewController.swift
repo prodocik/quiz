@@ -1,6 +1,9 @@
 
 import UIKit
-class ViewController: UIViewController {
+import GoogleMobileAds
+class ViewController: UIViewController, GADBannerViewDelegate {
+    @IBOutlet weak var bannerView: GADBannerView!
+    
     @IBOutlet weak var counterLabel: UILabel!
     @IBOutlet weak var QuestionLabel: UILabel!
     @IBOutlet weak var Button1: UIButton!
@@ -16,6 +19,12 @@ class ViewController: UIViewController {
  
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        bannerView.delegate = self
+        bannerView.adUnitID = "ca-app-pub-7352354661944634/8008676402"
+        bannerView.rootViewController = self
+        bannerView.load(GADRequest())
+        
         
         let path = Bundle.main.path(forResource: "TableData", ofType: "plist")
         let dict = NSDictionary(contentsOfFile: path!)
