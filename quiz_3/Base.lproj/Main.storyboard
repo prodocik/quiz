@@ -15,18 +15,18 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vKH-fL-O4x">
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MX0-BY-6RV">
-                                        <color key="backgroundColor" red="0.20673266053199768" green="0.17695777118206024" blue="0.21285331249237061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.18928284777554433" green="0.41447552798530335" blue="0.45001189720812185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" priority="250" constant="50" id="ssb-al-4ha"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                        <color key="tintColor" red="0.99964141845703125" green="0.98571807146072388" blue="0.9965362548828125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="tintColor" red="0.97674937075245316" green="0.99964141845703125" blue="0.98827912792782058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <state key="normal" title="Button"/>
                                         <userDefinedRuntimeAttributes>
@@ -42,12 +42,12 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FH2-6G-01f">
-                                        <color key="backgroundColor" red="0.20673266053199768" green="0.17695777118206024" blue="0.21285331249237061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.18928284777554433" green="0.41447552798530335" blue="0.45001189720812185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" priority="250" constant="50" id="agG-Bn-Lca"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                        <color key="tintColor" red="0.99964141845703125" green="0.98571807146072388" blue="0.9965362548828125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="tintColor" red="0.48777254573483425" green="0.99964141845703125" blue="0.44808712152206209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <state key="normal" title="Button">
                                             <color key="titleColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -65,15 +65,15 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v5b-kt-Y1K">
-                                        <color key="backgroundColor" red="0.20673266053199768" green="0.17695777118206024" blue="0.21285331249237061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.18928284777554433" green="0.41447552798530335" blue="0.45001189720812185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
                                         </accessibility>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" priority="250" constant="50" id="lo1-mu-5fN"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                        <color key="tintColor" red="0.99964141845703125" green="0.98571807146072388" blue="0.9965362548828125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="tintColor" red="0.9668408014788139" green="0.99964141845703125" blue="0.96797584904687328" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <state key="normal" title="Button"/>
                                         <userDefinedRuntimeAttributes>
@@ -89,12 +89,12 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAs-Ou-TV1">
-                                        <color key="backgroundColor" red="0.20673266053199768" green="0.17695777118206024" blue="0.21285331249237061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.18928284777554433" green="0.41447552798530335" blue="0.45001189720812185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" priority="250" constant="50" id="Qgg-Z1-o8h"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                        <color key="tintColor" red="0.99964141845703125" green="0.98571807146072388" blue="0.9965362548828125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="tintColor" red="0.9724141120109564" green="0.99964141845703125" blue="0.99407891226221179" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <state key="normal" title="Button"/>
                                         <userDefinedRuntimeAttributes>
@@ -125,7 +125,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.37953916192054749" green="0.31569716334342957" blue="0.29573741555213928" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.41207409579385706" green="0.58151890413896834" blue="0.61778236040609136" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="FH2-6G-01f" secondAttribute="trailing" id="2ES-bD-yFD"/>
                                     <constraint firstItem="FH2-6G-01f" firstAttribute="leading" secondItem="v5b-kt-Y1K" secondAttribute="leading" id="3At-r0-AIM"/>
@@ -192,7 +192,7 @@
                         <viewControllerLayoutGuide type="bottom" id="bu1-Fo-b0j"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ibO-Cx-oHj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Итоговый результат:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X8K-Hv-opo">

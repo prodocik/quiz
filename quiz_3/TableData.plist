@@ -329,23 +329,6 @@
 		</array>
 		<array>
 			<array>
-				<string>Вы потеете?</string>
-			</array>
-			<array>
-				<string>Минимально</string>
-				<string>обильный, лоснящийся или кисло пахнущий</string>
-				<string> умеренный, присутствующий всегда</string>
-				<string>не уверен(а)</string>
-			</array>
-			<array>
-				<string>1</string>
-				<string>2</string>
-				<string>3</string>
-				<string>0</string>
-			</array>
-		</array>
-		<array>
-			<array>
 				<string>Опишите свой пульс</string>
 			</array>
 			<array>
@@ -478,6 +461,279 @@
 				<string>2</string>
 				<string>3</string>
 				<string>3</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Какая ваша выносливость?</string>
+			</array>
+			<array>
+				<string>быстро истощаетесь, необходимо время на восстановление</string>
+				<string>хорошо управляемая</string>
+				<string>хорошая жизнеспособность и выносливость</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Ваше половое возбуждение можно описать скорее как:</string>
+			</array>
+			<array>
+				<string>интенсивное, быстро расходуемое, фантазии</string>
+				<string>сильное, желания и действия согласованы</string>
+				<string>медленное, затем поддерживается страсть</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Опишите свой голос</string>
+			</array>
+			<array>
+				<string>тихий, слабый</string>
+				<string>резкий, зычный</string>
+				<string>мягкий, ласкающий слух</string>
+				<string>хрипящий, низкочастотный</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>2</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Опишите свою речь</string>
+			</array>
+			<array>
+				<string>быстрая, словоохотливая</string>
+				<string>острая, ясная, точная</string>
+				<string>медленная, возможно затруднённая</string>
+				<string>легкость и красноречие</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>2</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Какой ваш апетит?</string>
+			</array>
+			<array>
+				<string>изменчивый, непостоянный</string>
+				<string>очень хороший</string>
+				<string>умеренный</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Опишите жажду</string>
+			</array>
+			<array>
+				<string>изменчивая, непостоянная</string>
+				<string>часто испытываемая</string>
+				<string>не замечаемая</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Какая пища для вас более предпочтительна?</string>
+			</array>
+			<array>
+				<string>тёплая, горячая, сырая пища со сладкая и соленая</string>
+				<string>очень холодная, сладкая, горькая и вяжущая</string>
+				<string>слегка тёплая, кислая и вяжущая</string>
+				<string> теплая кислая и солёная</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>1</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Опишите свое мышление</string>
+			</array>
+			<array>
+				<string>поверхностное, меняющееся, слабо применяющееся на практике</string>
+				<string> точное, логическое, хорошее планирующее и исполняющее</string>
+				<string> спокойное, медленное, стабильное, организованное</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>1</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Какая у вас память?</string>
+			</array>
+			<array>
+				<string>быстро запоминающая, плохо удерживающая</string>
+				<string>быстро запоминающая, хорошо удерживающая длительное время</string>
+				<string>медленно запоминающая, хорошо удерживающая</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Опишите ваши убеждения</string>
+			</array>
+			<array>
+				<string> часто меняющиеся</string>
+				<string>чрезвычайно сильные убеждения</string>
+				<string> глубокие, устойчивые, неизменные</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>1</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Как вы принимаете решения?</string>
+			</array>
+			<array>
+				<string>проблематичное</string>
+				<string>быстрое, решительное</string>
+				<string>тщательно продуманное</string>
+				<string>по-разному касательно различных ситуаций</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>3</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Расходование и отношение к деньгам</string>
+			</array>
+			<array>
+				<string>расточительное и неэкономное</string>
+				<string>методичное</string>
+				<string>методичное
+экономное, бережливое</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>К чему ближе ваши интересы?</string>
+			</array>
+			<array>
+				<string>путешествия, искусство, эзотерика</string>
+				<string>спорт, политика, предметы роскоши</string>
+				<string>покой, бизнес, хорошая пища</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Опишите творческую активность</string>
+			</array>
+			<array>
+				<string>ярко выраженная и богатая идеями</string>
+				<string>в основном связана с научными или техническими изобретениями</string>
+				<string>преимущественно в области бизнеса</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Опишите свою эмоциональную сторону</string>
+			</array>
+			<array>
+				<string>опасение, беспокойство, сомнение, неуверенность и стеснительность</string>
+				<string>сердитость, критика, амбиции, практичность, завистливость</string>
+				<string>забота, быстрое восстановление хорошего настроения, самоудовлетворённость, апатия</string>
+				<string>не уверен(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
+			</array>
+		</array>
+		<array>
+			<array>
+				<string>Какой ваш образ жизни?</string>
+			</array>
+			<array>
+				<string>беспорядочный</string>
+				<string>занятый, большие планы</string>
+				<string>стабильный, размеренный</string>
+				<string>не уверн(а)</string>
+			</array>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>0</string>
 			</array>
 		</array>
 	</array>

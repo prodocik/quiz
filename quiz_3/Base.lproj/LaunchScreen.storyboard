@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A313a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A313a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,51 +17,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhone 6" translatesAutoresizingMaskIntoConstraints="NO" id="QUG-YN-JxO">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="QUG-YN-JxO">
+                                <color key="backgroundColor" red="0.64994371213087321" green="0.78753569162436543" blue="0.44842586072815593" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Узнайте свою дошу" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6BN-8c-Aif">
-                                <rect key="frame" x="124" y="391" width="166" height="22"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Аюрведа тест" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjp-Go-i6f">
-                                <rect key="frame" x="129" y="354" width="156" height="27"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EgN-Nc-xKe">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Узнайте свою дошу" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6BN-8c-Aif">
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" red="0.098883494812064973" green="0.31378886421319796" blue="0.22915419504776935" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Аюрведа тест" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjp-Go-i6f">
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" red="0.10981847844057138" green="0.34848905456852797" blue="0.25449510129317832" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.45671018835616439" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="pjp-Go-i6f" firstAttribute="centerX" secondItem="EgN-Nc-xKe" secondAttribute="centerX" id="4h8-nA-eab"/>
+                                    <constraint firstItem="6BN-8c-Aif" firstAttribute="top" secondItem="pjp-Go-i6f" secondAttribute="bottom" constant="10" id="L5V-zE-otJ"/>
+                                    <constraint firstItem="6BN-8c-Aif" firstAttribute="top" secondItem="pjp-Go-i6f" secondAttribute="bottom" constant="10" id="Y1f-lw-k9e"/>
+                                    <constraint firstAttribute="bottom" secondItem="6BN-8c-Aif" secondAttribute="bottom" constant="48" id="he6-dB-d0e"/>
+                                    <constraint firstItem="pjp-Go-i6f" firstAttribute="top" secondItem="EgN-Nc-xKe" secondAttribute="top" constant="48" id="lmh-RF-dah"/>
+                                    <constraint firstAttribute="height" constant="155" id="o0z-p4-fsM"/>
+                                    <constraint firstItem="6BN-8c-Aif" firstAttribute="centerX" secondItem="EgN-Nc-xKe" secondAttribute="centerX" id="zNO-ss-XYP"/>
+                                </constraints>
+                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v1.0 All Rights reserved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qiY-cU-hnq">
-                                <rect key="frame" x="136" y="694" width="142" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="pjp-Go-i6f" firstAttribute="centerY" secondItem="QUG-YN-JxO" secondAttribute="centerY" id="08N-Gi-f6H"/>
                             <constraint firstAttribute="trailing" secondItem="QUG-YN-JxO" secondAttribute="trailing" id="38Z-EG-qBM"/>
                             <constraint firstItem="qiY-cU-hnq" firstAttribute="top" secondItem="QUG-YN-JxO" secondAttribute="bottom" constant="-42" id="I0W-VX-6hQ"/>
-                            <constraint firstItem="pjp-Go-i6f" firstAttribute="centerX" secondItem="6BN-8c-Aif" secondAttribute="centerX" id="OIT-VG-8ED"/>
+                            <constraint firstItem="EgN-Nc-xKe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Lwc-2x-PaG"/>
                             <constraint firstItem="qiY-cU-hnq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ORj-6o-yFK"/>
-                            <constraint firstItem="6BN-8c-Aif" firstAttribute="top" secondItem="pjp-Go-i6f" secondAttribute="bottom" constant="10" id="YOb-2B-kKf"/>
+                            <constraint firstItem="EgN-Nc-xKe" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="YV8-XS-BKo"/>
                             <constraint firstItem="QUG-YN-JxO" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="cr1-a9-qFO"/>
-                            <constraint firstItem="pjp-Go-i6f" firstAttribute="centerX" secondItem="QUG-YN-JxO" secondAttribute="centerX" id="czq-nz-Bro"/>
+                            <constraint firstAttribute="trailing" secondItem="EgN-Nc-xKe" secondAttribute="trailing" id="haC-DF-zow"/>
                             <constraint firstAttribute="bottom" secondItem="qiY-cU-hnq" secondAttribute="bottom" constant="20" symbolic="YES" id="hkD-yp-MOs"/>
                             <constraint firstItem="QUG-YN-JxO" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="nzq-GO-GAy"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="QUG-YN-JxO" secondAttribute="bottom" id="wPU-Zc-Y3u"/>
+                            <constraint firstItem="EgN-Nc-xKe" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="xzC-Ka-6Lc"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.5" y="374.5"/>
+            <point key="canvasLocation" x="49.275362318840585" y="371.73913043478262"/>
         </scene>
     </scenes>
     <resources>
-        <image name="iPhone 6" width="375" height="667"/>
+        <image name="1" width="414" height="736"/>
     </resources>
 </document>
