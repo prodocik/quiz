@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2327e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -15,16 +15,37 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="QUG-YN-JxO">
                                 <color key="backgroundColor" red="0.64994371213087321" green="0.78753569162436543" blue="0.44842586072815593" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EgN-Nc-xKe">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Аюрведа" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5E-Q6-0Zq">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="4f4-W7-er7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Узнай свою дошу" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yfc-Ic-sfN">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.45671018835616439" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="Yfc-Ic-sfN" firstAttribute="top" secondItem="R5E-Q6-0Zq" secondAttribute="bottom" constant="21" id="Gra-uk-YQJ"/>
+                                    <constraint firstItem="R5E-Q6-0Zq" firstAttribute="leading" secondItem="EgN-Nc-xKe" secondAttribute="leading" id="I55-MU-vnN"/>
+                                    <constraint firstItem="R5E-Q6-0Zq" firstAttribute="top" secondItem="EgN-Nc-xKe" secondAttribute="top" constant="37" id="OLm-Lv-Kp5"/>
                                     <constraint firstAttribute="height" constant="155" id="o0z-p4-fsM"/>
+                                    <constraint firstAttribute="trailing" secondItem="Yfc-Ic-sfN" secondAttribute="trailing" constant="8" id="qT6-31-04G"/>
+                                    <constraint firstAttribute="trailing" secondItem="R5E-Q6-0Zq" secondAttribute="trailing" id="r6m-O8-Qdy"/>
+                                    <constraint firstItem="Yfc-Ic-sfN" firstAttribute="leading" secondItem="EgN-Nc-xKe" secondAttribute="leading" constant="8" id="raJ-7h-HvK"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v1.0 All Rights reserved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qiY-cU-hnq">
@@ -51,7 +72,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="49.275362318840585" y="371.73913043478262"/>
+            <point key="canvasLocation" x="48.799999999999997" y="371.06446776611699"/>
         </scene>
     </scenes>
     <resources>
