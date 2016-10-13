@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2327e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2548a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AiN-74-dSF">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -7,6 +7,114 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="j0i-FP-wSM">
+            <objects>
+                <viewController id="AiN-74-dSF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jiE-FF-c32"/>
+                        <viewControllerLayoutGuide type="bottom" id="6ms-zE-PZz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oCM-kj-m57">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f27-GJ-bXR">
+                                <color key="backgroundColor" red="0.10420333840907428" green="0.488193828620609" blue="0.53097239847715738" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="H91-zV-Zug"/>
+                                </constraints>
+                                <state key="normal" title="Начать тест">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="RXq-BJ-VQc"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" indicatorStyle="white" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lN2-tz-8Pw">
+                                <color key="backgroundColor" white="1" alpha="0.1078499572" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="500" constant="211" id="oeq-8r-RQ6"/>
+                                </constraints>
+                                <mutableString key="text">Что такое Аюрведа
+
+Аюрведа – это древняя наука о здоровой долгой жизни, в которой главным фактором благополучия считается единство тела, органов чувств и движения, ума и души (Чарака Санхите ок. 1000г. до н.э.). 
+
+
+Исторический экскурс
+
+Будучи одной из древнейших медицинских систем, Аюрведа оказала большое влияние на развитие арабской и европейской медицины. Ещё в древности индийские целебные растения морскими и сухопутными торговыми путями везли в Парфию, страны Средиземноморья и Средней Азии, бассейнов Каспийского и Чёрного морей, Южную Сибирь, Китай. Основными предметами вывоза были нард, мускус, сандал, корица, алоэ и другие растения и благовония.
+
+Аюрведический трактат "Аштанга Хридая самхита", написанный в IV в. до н.э. лег в основу трактата тибетской медицины Джуд Ши. На Тибет Аюрведа стала проникать с VII в. н.э., когда личным врачом правителя Тибета Сонгцена Гампо стал аюрведист.
+
+В период расцвета Аббасидского халифата в Багдаде работало много врачей из Индии, некоторые из которых пользовались влиянием при дворе халифа. Математические, медицинские, в том числе фармакологические и аювердические, тексты переводились на арабский язык в Багдаде в конце первого тысячелетия нашей эры. Арабским переводом аюрведического трактата "Аштанкар" пользовался персидский философ и врач Ибн-Сина при написании знаменитого "Канона врачебной науки". В дальнейшем, тексты Ибн-Сины изучались европейскими алхимиками, труды которых оказали существенное влияние на формирование европейской медицины и химии.
+
+К середине XX в. традиционная индийская аюрведическая медицина приобрела популярность на Западе, а к концу XX в. и в России. В Соединенных Штатах Аюрведу изучают в Национальном Институте Медицины Аюрведы; в Израиле — в колледже Ридман. Базовые процедуры Аюрведы (диагностика по дыханию и пульсу, лечебные диеты, очистительные клизмы, ванны и обливания) прочно вошли в медицинскую практику всех стран. 
+
+В настоящее время Аюрведу практикуют примерно триста пятьдесят тысяч зарегистрированных врачей.
+
+
+Аюрведа как наука о здоровье и гармонии
+
+В Аюрведе внутренний мир человека тесно связан с его физиологией, душевное состояние с состоянием физическим. Болезнь по аюрведическим законам - это отсутствие гармонии души и тела.
+
+С точки зрения Аюрведы, человек состоит из 5 стихий-первоэлементов – воздух, вода, земля, огонь и космос. Равновесие всех этих стихий называется "Пракрити". Состояние Пракрити - это состояние идеального здоровья.
+
+Проявление стихий в человеке можно сравнить с делением на психотипы - кто-то больше похож на флегматика, а кто-то быст и горяч, как холерик, кто-то умеет так грустно вздыхать, как настоящий меланхолик, а кто-то подвижен и любознателен как сангвиник. Очень сложно найти человека, в котором не были бы перемешаны все психотипы понемногу, но какой-то один, как правило, преобладает. 
+
+Так же и в Аюрведе – в идеале, человек должен жить в гармонии всех 5 стихий, но какая-либо из них может быть преобладающей от рождения.
+
+В Аюрведе определено три основных типа (доши) человека и его конституции: вата, питта и капха. Понятие Доша более глубокое, чем просто анатомическая конституция человеческого тела или его характер. В нем учитываются скорость обменных процессов, физическая и психическая подвижность, склонности и темперамент человека.
+
+Вата – это воздух. Питта – это огонь и вода. Капха – это вода, земля и космос. В каждом человеке есть и вата, и питта, и капха, просто что-то одно выражено более явно. Все они находятся в балансе друг с другом.
+
+Окружающий мир с его стрессами, заботами и т.п. воздействует на человека постоянно, изменяя его физическое (Доши) или психо-эмоциональное (Гуны) состояние. В этом случае баланс стихий-первоэлементов меняется. Человек постепенно выходит из гармонии и равновесия своих дош – ваты, питты и капхи. Это состояние называется "Викрити".
+
+Цель технологий оздоровления Аюрведы - гармонизировать Викрити до Пракрити, вернув человека в его индивидуальное состояние гармонии и баланса.
+
+Патологическое нарушение равновесия ваты, питты и капхи – это и есть основная причина отклонения в здоровье по Аюрведе.
+
+
+Чем Аюрведа отличается от других систем оздоровления
+
+Аюрведа как система здоровья базируется не на диагнозе и поиске отдельного отклонения, а на выявлении заболевания в стадии тенденции к нарушению здоровья, т.е. в самом его зародыше. С точки зрения аюрведического врача, не может быть много питты и совсем не быть капхи, а вата быть сама по себе, т.к. они все взаимосвязаны друг с другом. Может быть дисбаланс между этими состояниями, который и будет первопричиной отклонений здоровья человека. 
+
+В норме у человека не должно быть явных патологических перекосов в ту или иную дошу. Аюрведический врач диагностирует патологическую активацию какой-либо доши и подбирает терапию не для её "лечения", а для гармонизации и уравновешивания состояния человека в целом. 
+
+Именно этим принципиально аюрведическая медицина отличается от европейской. На Западе ставят диагноз, привязанный к нарушению здоровья отдельной системы, а в Аюрведе будут рассматривать заболевание как часть целого нарушения гармонии в работе организма.
+
+Таким образом, Аюрведа - это, в первую очередь, наука о комплексном подходе к здоровью человека, к его благополучию физическому и духовному, к его образу жизни и мировоззрению.
+
+Каждый, кто начнёт изучать и применять это знание, может получить свой результат в зависимости от приложенных усилий и стараний. То, что результат получит каждый человек, начавший применять знания Аюрведы на своём опыте, не вызывает сомнения, т.к. система, не приносящая результатов своим последователям, не просуществовала бы более 5000 лет.</mutableString>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Аюрведа. Узнай свою дошу" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Air-pJ-lb1">
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40990805625915527" green="0.58029425144195557" blue="0.61848711967468262" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="f27-GJ-bXR" firstAttribute="top" secondItem="lN2-tz-8Pw" secondAttribute="bottom" constant="8" id="2qS-3I-cvT"/>
+                            <constraint firstItem="f27-GJ-bXR" firstAttribute="trailing" secondItem="oCM-kj-m57" secondAttribute="trailingMargin" id="2rf-aS-VVg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lN2-tz-8Pw" secondAttribute="trailing" id="8Gu-GK-j6r"/>
+                            <constraint firstItem="lN2-tz-8Pw" firstAttribute="top" secondItem="Air-pJ-lb1" secondAttribute="bottom" constant="63" id="WRo-dp-zZ4"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="lN2-tz-8Pw" secondAttribute="leading" id="WgG-Cg-5J0"/>
+                            <constraint firstItem="Air-pJ-lb1" firstAttribute="centerX" secondItem="oCM-kj-m57" secondAttribute="centerX" id="dqN-oz-ajB"/>
+                            <constraint firstItem="lN2-tz-8Pw" firstAttribute="centerX" secondItem="oCM-kj-m57" secondAttribute="centerX" id="ibv-Wk-wlz"/>
+                            <constraint firstItem="f27-GJ-bXR" firstAttribute="leading" secondItem="oCM-kj-m57" secondAttribute="leadingMargin" id="idq-3U-7qh"/>
+                            <constraint firstItem="Air-pJ-lb1" firstAttribute="top" secondItem="jiE-FF-c32" secondAttribute="bottom" constant="49" id="qDS-3f-j3h"/>
+                            <constraint firstItem="6ms-zE-PZz" firstAttribute="top" secondItem="f27-GJ-bXR" secondAttribute="bottom" constant="20" id="veI-BV-Uxq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RLN-g0-wJ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-155.625" y="392.5"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -16,7 +124,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vKH-fL-O4x">
@@ -117,12 +225,25 @@
                                         <color key="highlightedColor" red="0.25234848260879517" green="0.14353059232234955" blue="0.15984746813774109" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <variation key="heightClass=compact" preservesSuperviewLayoutMargins="NO"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gP-ts-r1w">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="hRp-Sm-jgO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <state key="normal" title="&lt;">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="BackBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iOp-42-4Z3"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.41207409579385706" green="0.58151890413896834" blue="0.61778236040609136" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="q7z-UO-Bhj" secondAttribute="bottom" id="2e1-ec-a4B"/>
                                     <constraint firstItem="FH2-6G-01f" firstAttribute="centerX" secondItem="vKH-fL-O4x" secondAttribute="centerX" id="6od-O8-ATa"/>
                                     <constraint firstAttribute="trailing" secondItem="MX0-BY-6RV" secondAttribute="trailing" id="Axv-7I-5Cj"/>
+                                    <constraint firstItem="8gP-ts-r1w" firstAttribute="leading" secondItem="vKH-fL-O4x" secondAttribute="leading" constant="8" id="Cfe-Sk-g86"/>
                                     <constraint firstAttribute="trailing" secondItem="q7z-UO-Bhj" secondAttribute="trailing" id="HeC-8G-QGw"/>
                                     <constraint firstItem="MX0-BY-6RV" firstAttribute="width" secondItem="uAs-Ou-TV1" secondAttribute="width" id="Iec-KZ-LcX"/>
                                     <constraint firstItem="FH2-6G-01f" firstAttribute="top" secondItem="XPY-R2-Q6X" secondAttribute="bottom" priority="500" constant="72" id="Kav-HY-Pr7"/>
@@ -141,6 +262,7 @@
                                     <constraint firstItem="q7z-UO-Bhj" firstAttribute="top" secondItem="MX0-BY-6RV" secondAttribute="bottom" id="mIN-Vr-rWZ"/>
                                     <constraint firstItem="XPY-R2-Q6X" firstAttribute="top" secondItem="vKH-fL-O4x" secondAttribute="top" priority="500" constant="99" id="otF-cb-3jS"/>
                                     <constraint firstItem="q7z-UO-Bhj" firstAttribute="leading" secondItem="vKH-fL-O4x" secondAttribute="leading" id="ySD-E8-ENe"/>
+                                    <constraint firstItem="8gP-ts-r1w" firstAttribute="top" secondItem="vKH-fL-O4x" secondAttribute="top" constant="23" id="ylb-Hm-Ve8"/>
                                     <constraint firstItem="uAs-Ou-TV1" firstAttribute="height" secondItem="v5b-kt-Y1K" secondAttribute="height" id="yxV-LK-0Ww"/>
                                     <constraint firstItem="uAs-Ou-TV1" firstAttribute="width" secondItem="v5b-kt-Y1K" secondAttribute="width" id="zet-CZ-jvR"/>
                                 </constraints>
@@ -188,7 +310,7 @@
                         <viewControllerLayoutGuide type="bottom" id="bu1-Fo-b0j"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ibO-Cx-oHj">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Итоговый результат:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X8K-Hv-opo">

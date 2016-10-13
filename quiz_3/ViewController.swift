@@ -84,6 +84,9 @@ class ViewController: UIViewController, GADBannerViewDelegate {
         }
     }
     
+    @IBAction func BackBtn(_ sender: AnyObject) {
+        self.dismiss(animated: false, completion: nil)
+    }
     
     @IBAction func Button1Action(_ sender: UIButton) {generateQuestion(showrandom()); generateHighScore(1)}
     @IBAction func Button2Action(_ sender: UIButton) {generateQuestion(showrandom()); generateHighScore(2)}
