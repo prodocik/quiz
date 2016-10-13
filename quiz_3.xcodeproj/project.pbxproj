@@ -10,6 +10,7 @@
 		2C2FE0BD1D78C31E0046EBCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FE0BC1D78C31E0046EBCC /* AppDelegate.swift */; };
 		2C2FE0BF1D78C31E0046EBCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FE0BE1D78C31E0046EBCC /* ViewController.swift */; };
 		2C9225E01D917C2E00AF53FB /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9225DF1D917C2E00AF53FB /* GoogleMobileAds.framework */; };
+		2CA71B731DB02B08009A8BC9 /* mainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71B721DB02B08009A8BC9 /* mainMenuViewController.swift */; };
 		2CBE56CA1D7B7B0800652F86 /* vc2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE56C91D7B7B0800652F86 /* vc2.swift */; };
 		2CDFB3DA1D956B3700F7C539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2FE0C01D78C31E0046EBCC /* Main.storyboard */; };
 		2CDFB3DB1D956B3A00F7C539 /* TableData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D16481D7E31C7004A514D /* TableData.plist */; };
@@ -27,6 +28,7 @@
 		2C2FE0C81D78C31E0046EBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C4D16481D7E31C7004A514D /* TableData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TableData.plist; sourceTree = "<group>"; };
 		2C9225DF1D917C2E00AF53FB /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		2CA71B721DB02B08009A8BC9 /* mainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainMenuViewController.swift; sourceTree = "<group>"; };
 		2CBE56C91D7B7B0800652F86 /* vc2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vc2.swift; sourceTree = "<group>"; };
 		2CDFB3D21D95680300F7C539 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +68,7 @@
 			children = (
 				2C2FE0BC1D78C31E0046EBCC /* AppDelegate.swift */,
 				2C2FE0BE1D78C31E0046EBCC /* ViewController.swift */,
+				2CA71B721DB02B08009A8BC9 /* mainMenuViewController.swift */,
 				2C4D16481D7E31C7004A514D /* TableData.plist */,
 				2C2FE0C01D78C31E0046EBCC /* Main.storyboard */,
 				2CBE56C91D7B7B0800652F86 /* vc2.swift */,
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA71B731DB02B08009A8BC9 /* mainMenuViewController.swift in Sources */,
 				2C2FE0BF1D78C31E0046EBCC /* ViewController.swift in Sources */,
 				2CBE56CA1D7B7B0800652F86 /* vc2.swift in Sources */,
 				2C2FE0BD1D78C31E0046EBCC /* AppDelegate.swift in Sources */,

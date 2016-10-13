@@ -84,8 +84,23 @@ class ViewController: UIViewController, GADBannerViewDelegate {
         }
     }
     
-    @IBAction func BackBtn(_ sender: AnyObject) {
+    func myFunc (){
         self.dismiss(animated: false, completion: nil)
+
+    }
+    
+    @IBAction func BackBtn(_ sender: AnyObject) {
+        if quote == 0 {
+        
+        self.dismiss(animated: false, completion: nil)
+        } else {
+            let popOut = UIAlertController (title: "Предупреждение", message: "Вы действительно хоитие выйти? Весь прогресс будет утерян.", preferredStyle: .alert)
+            
+            popOut.addAction(UIAlertAction(title: "Нет", style: .cancel, handler: nil))
+            popOut.addAction(UIAlertAction(title: "Да", style: .destructive, handler: {(action:UIAlertAction!) in self.myFunc()}))
+                
+                self.present(popOut, animated: true, completion: nil)
+        }
     }
     
     @IBAction func Button1Action(_ sender: UIButton) {generateQuestion(showrandom()); generateHighScore(1)}

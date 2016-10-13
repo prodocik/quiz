@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main Menu View Controller-->
         <scene sceneID="j0i-FP-wSM">
             <objects>
-                <viewController id="AiN-74-dSF" sceneMemberID="viewController">
+                <viewController id="AiN-74-dSF" customClass="mainMenuViewController" customModule="quiz_3" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jiE-FF-c32"/>
                         <viewControllerLayoutGuide type="bottom" id="6ms-zE-PZz"/>
@@ -36,7 +36,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="500" constant="211" id="oeq-8r-RQ6"/>
                                 </constraints>
-                                <mutableString key="text">Что такое Аюрведа
+                                <string key="text">Что такое Аюрведа
 
 Аюрведа – это древняя наука о здоровой долгой жизни, в которой главным фактором благополучия считается единство тела, органов чувств и движения, ума и души (Чарака Санхите ок. 1000г. до н.э.). 
 
@@ -85,7 +85,7 @@
 
 Таким образом, Аюрведа - это, в первую очередь, наука о комплексном подходе к здоровью человека, к его благополучию физическому и духовному, к его образу жизни и мировоззрению.
 
-Каждый, кто начнёт изучать и применять это знание, может получить свой результат в зависимости от приложенных усилий и стараний. То, что результат получит каждый человек, начавший применять знания Аюрведы на своём опыте, не вызывает сомнения, т.к. система, не приносящая результатов своим последователям, не просуществовала бы более 5000 лет.</mutableString>
+Каждый, кто начнёт изучать и применять это знание, может получить свой результат в зависимости от приложенных усилий и стараний. То, что результат получит каждый человек, начавший применять знания Аюрведы на своём опыте, не вызывает сомнения, т.к. система, не приносящая результатов своим последователям, не просуществовала бы более 5000 лет.</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no"/>
@@ -110,6 +110,9 @@
                             <constraint firstItem="6ms-zE-PZz" firstAttribute="top" secondItem="f27-GJ-bXR" secondAttribute="bottom" constant="20" id="veI-BV-Uxq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="multitext" destination="lN2-tz-8Pw" id="aKI-Fd-WPk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RLN-g0-wJ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
