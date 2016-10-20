@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		2C2FE0BD1D78C31E0046EBCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FE0BC1D78C31E0046EBCC /* AppDelegate.swift */; };
 		2C2FE0BF1D78C31E0046EBCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FE0BE1D78C31E0046EBCC /* ViewController.swift */; };
+		2C703AAF1DB972A800A59917 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C703AAE1DB972A800A59917 /* LibraryViewController.swift */; };
+		2C703AB21DB982EA00A59917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C703AB01DB982EA00A59917 /* Main.storyboard */; };
 		2C9225E01D917C2E00AF53FB /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9225DF1D917C2E00AF53FB /* GoogleMobileAds.framework */; };
 		2CA71B731DB02B08009A8BC9 /* mainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71B721DB02B08009A8BC9 /* mainMenuViewController.swift */; };
 		2CBE56CA1D7B7B0800652F86 /* vc2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE56C91D7B7B0800652F86 /* vc2.swift */; };
-		2CDFB3DA1D956B3700F7C539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2FE0C01D78C31E0046EBCC /* Main.storyboard */; };
 		2CDFB3DB1D956B3A00F7C539 /* TableData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D16481D7E31C7004A514D /* TableData.plist */; };
 		2CDFB3DD1D956B4500F7C539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2FE0C51D78C31E0046EBCC /* LaunchScreen.storyboard */; };
 		2CDFB3DE1D956B4800F7C539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2FE0C31D78C31E0046EBCC /* Assets.xcassets */; };
@@ -22,11 +23,12 @@
 		2C2FE0B91D78C31E0046EBCC /* quiz_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quiz_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2FE0BC1D78C31E0046EBCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C2FE0BE1D78C31E0046EBCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C2FE0C11D78C31E0046EBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C2FE0C31D78C31E0046EBCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C2FE0C61D78C31E0046EBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C2FE0C81D78C31E0046EBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C4D16481D7E31C7004A514D /* TableData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TableData.plist; sourceTree = "<group>"; };
+		2C703AAE1DB972A800A59917 /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		2C703AB11DB982EA00A59917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C9225DF1D917C2E00AF53FB /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		2CA71B721DB02B08009A8BC9 /* mainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainMenuViewController.swift; sourceTree = "<group>"; };
 		2CBE56C91D7B7B0800652F86 /* vc2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vc2.swift; sourceTree = "<group>"; };
@@ -69,9 +71,10 @@
 				2C2FE0BC1D78C31E0046EBCC /* AppDelegate.swift */,
 				2C2FE0BE1D78C31E0046EBCC /* ViewController.swift */,
 				2CA71B721DB02B08009A8BC9 /* mainMenuViewController.swift */,
-				2C4D16481D7E31C7004A514D /* TableData.plist */,
-				2C2FE0C01D78C31E0046EBCC /* Main.storyboard */,
+				2C703AAE1DB972A800A59917 /* LibraryViewController.swift */,
+				2C703AB01DB982EA00A59917 /* Main.storyboard */,
 				2CBE56C91D7B7B0800652F86 /* vc2.swift */,
+				2C4D16481D7E31C7004A514D /* TableData.plist */,
 				2C2FE0C31D78C31E0046EBCC /* Assets.xcassets */,
 				2C2FE0C51D78C31E0046EBCC /* LaunchScreen.storyboard */,
 				2C2FE0C81D78C31E0046EBCC /* Info.plist */,
@@ -139,10 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CDFB3DA1D956B3700F7C539 /* Main.storyboard in Resources */,
 				2CDFB3DD1D956B4500F7C539 /* LaunchScreen.storyboard in Resources */,
 				2CDFB3DB1D956B3A00F7C539 /* TableData.plist in Resources */,
 				2CDFB3DE1D956B4800F7C539 /* Assets.xcassets in Resources */,
+				2C703AB21DB982EA00A59917 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CA71B731DB02B08009A8BC9 /* mainMenuViewController.swift in Sources */,
+				2C703AAF1DB972A800A59917 /* LibraryViewController.swift in Sources */,
 				2C2FE0BF1D78C31E0046EBCC /* ViewController.swift in Sources */,
 				2CBE56CA1D7B7B0800652F86 /* vc2.swift in Sources */,
 				2C2FE0BD1D78C31E0046EBCC /* AppDelegate.swift in Sources */,
@@ -163,20 +167,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2C2FE0C01D78C31E0046EBCC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C2FE0C11D78C31E0046EBCC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C2FE0C51D78C31E0046EBCC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2C2FE0C61D78C31E0046EBCC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2C703AB01DB982EA00A59917 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C703AB11DB982EA00A59917 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
