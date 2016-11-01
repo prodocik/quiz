@@ -12,13 +12,17 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         UIApplication.shared.isStatusBarHidden = false
         UIApplication.shared.statusBarStyle = .lightContent
+        UINavigationBar.appearance().barTintColor = UIColor( red: CGFloat(105/255.0), green: CGFloat(148/255.0), blue: CGFloat(158/255.0), alpha: CGFloat(1.0) )
         return true
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

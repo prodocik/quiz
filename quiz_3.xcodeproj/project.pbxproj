@@ -11,6 +11,7 @@
 		2C2FE0BF1D78C31E0046EBCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FE0BE1D78C31E0046EBCC /* ViewController.swift */; };
 		2C703AAF1DB972A800A59917 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C703AAE1DB972A800A59917 /* LibraryViewController.swift */; };
 		2C703AB21DB982EA00A59917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C703AB01DB982EA00A59917 /* Main.storyboard */; };
+		2C703AB41DBA2FBF00A59917 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C703AB31DBA2FBF00A59917 /* ContentView.swift */; };
 		2C9225E01D917C2E00AF53FB /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9225DF1D917C2E00AF53FB /* GoogleMobileAds.framework */; };
 		2CA71B731DB02B08009A8BC9 /* mainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71B721DB02B08009A8BC9 /* mainMenuViewController.swift */; };
 		2CBE56CA1D7B7B0800652F86 /* vc2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE56C91D7B7B0800652F86 /* vc2.swift */; };
@@ -29,6 +30,7 @@
 		2C4D16481D7E31C7004A514D /* TableData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TableData.plist; sourceTree = "<group>"; };
 		2C703AAE1DB972A800A59917 /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		2C703AB11DB982EA00A59917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C703AB31DBA2FBF00A59917 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C9225DF1D917C2E00AF53FB /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		2CA71B721DB02B08009A8BC9 /* mainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainMenuViewController.swift; sourceTree = "<group>"; };
 		2CBE56C91D7B7B0800652F86 /* vc2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vc2.swift; sourceTree = "<group>"; };
@@ -72,8 +74,9 @@
 				2C2FE0BE1D78C31E0046EBCC /* ViewController.swift */,
 				2CA71B721DB02B08009A8BC9 /* mainMenuViewController.swift */,
 				2C703AAE1DB972A800A59917 /* LibraryViewController.swift */,
-				2C703AB01DB982EA00A59917 /* Main.storyboard */,
+				2C703AB31DBA2FBF00A59917 /* ContentView.swift */,
 				2CBE56C91D7B7B0800652F86 /* vc2.swift */,
+				2C703AB01DB982EA00A59917 /* Main.storyboard */,
 				2C4D16481D7E31C7004A514D /* TableData.plist */,
 				2C2FE0C31D78C31E0046EBCC /* Assets.xcassets */,
 				2C2FE0C51D78C31E0046EBCC /* LaunchScreen.storyboard */,
@@ -109,7 +112,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = dots;
 				TargetAttributes = {
 					2C2FE0B81D78C31E0046EBCC = {
@@ -158,6 +161,7 @@
 			files = (
 				2CA71B731DB02B08009A8BC9 /* mainMenuViewController.swift in Sources */,
 				2C703AAF1DB972A800A59917 /* LibraryViewController.swift in Sources */,
+				2C703AB41DBA2FBF00A59917 /* ContentView.swift in Sources */,
 				2C2FE0BF1D78C31E0046EBCC /* ViewController.swift in Sources */,
 				2CBE56CA1D7B7B0800652F86 /* vc2.swift in Sources */,
 				2C2FE0BD1D78C31E0046EBCC /* AppDelegate.swift in Sources */,
@@ -229,7 +233,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos10.0;
+				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos10.0;
+				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
